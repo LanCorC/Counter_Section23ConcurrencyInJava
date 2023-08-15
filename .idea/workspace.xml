@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a55036f0-fc9d-4bcd-abc0-1eb4e733664f" name="Changes" comment="Section 23.395(Concurrency in Java: Multiple Threads): demonstrated threads simultaneous processing has no guaranteed order, introduced to race condition problem with multiple threads">
+    <list default="true" id="a55036f0-fc9d-4bcd-abc0-1eb4e733664f" name="Changes" comment="Section 23.396(Concurrency in Java: Thread Variables): (no code reflection), demonstrated explanation for race conditions, when a variable stored on the heap is accessed by more than 1 updating threads. distinction made between the heap, local variables, instance variables, and thread stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cor/lan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cor/lan/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +80,19 @@
       <option name="project" value="LOCAL" />
       <updated>1691731472013</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Section 23.396(Concurrency in Java: Thread Variables): (no code reflection), demonstrated explanation for race conditions, when a variable stored on the heap is accessed by more than 1 updating threads. distinction made between the heap, local variables, instance variables, and thread stack">
+      <created>1691732907003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691732907003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Section 23.395(Concurrency in Java: Multiple Threads): demonstrated threads simultaneous processing has no guaranteed order, introduced to race condition problem with multiple threads" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 23.395(Concurrency in Java: Multiple Threads): demonstrated threads simultaneous processing has no guaranteed order, introduced to race condition problem with multiple threads" />
+    <MESSAGE value="Section 23.396(Concurrency in Java: Thread Variables): (no code reflection), demonstrated explanation for race conditions, when a variable stored on the heap is accessed by more than 1 updating threads. distinction made between the heap, local variables, instance variables, and thread stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 23.396(Concurrency in Java: Thread Variables): (no code reflection), demonstrated explanation for race conditions, when a variable stored on the heap is accessed by more than 1 updating threads. distinction made between the heap, local variables, instance variables, and thread stack" />
   </component>
 </project>
